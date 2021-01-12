@@ -1,0 +1,345 @@
+/* Stilizim i header */
+.navbar-brand {
+  font-size: 2em;
+}
+
+.navbar-nav li {
+  margin-left: 20px;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Stilizim i sliderit */
+
+.slider {
+  margin-top: -80px;
+}
+
+.slider .slider-item {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  height: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content hr {
+  border: 1px solid white;
+  width: 80px;
+}
+
+.content h2 {
+  text-transform: uppercase;
+}
+
+.slider .slick-dots {
+  position: absolute;
+  bottom: 40px;
+}
+
+.slider .slick-dots li button {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  text-indent: -99999px;
+}
+
+/* Stilizim i introduction */
+
+.introduction {
+  width: 700px;
+  text-align: center;
+  /* margin-top: 100px; */
+  margin: 80px auto;
+}
+
+/* General style */
+
+.section-title {
+  text-transform: uppercase;
+}
+
+.line {
+  width: 60px;
+  border-top: 3px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Creativity section */
+
+.parallax {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parallax.creativity {
+  background-image: url(../images/bg-img.jpg);
+}
+
+.button {
+  border: 2px solid white;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: bold;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Our work section */
+.our-work {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.grid-item img {
+  width: 300px;
+}
+
+.filterButton {
+  border-style: none;
+  background-color: white;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.filter-button-group {
+  margin-bottom: 50px;
+}
+
+/* Help section */
+
+.parallax.help {
+  background-image: url(../images/help-bg.jpg);
+}
+
+/* Our Clients Section */
+
+.our-clients {
+  text-align: center;
+  background-color: rgb(165, 165, 165);
+  padding: 50px;
+}
+
+.client-logos {
+  list-style-type: none;
+}
+
+.client-logos li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.client-logos li img {
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.client-logos li img:hover {
+  filter: grayscale(0%);
+}
+
+/* About us section */
+
+.about-us {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.apply-content {
+  border: 2px solid black;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.apply-content a {
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px 20px 5px 20px;
+}
+
+.members {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+}
+
+.member-item,
+.apply {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.member-item img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.item-overlay {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  width: calc(100% - 15px);
+  opacity: 0;
+}
+
+.item-overlay:hover {
+  opacity: 1;
+}
+
+.item-overlay .fas {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: white;
+}
+
+.member-detail {
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Video section */
+.video {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*why choose us intro */
+.choose-us-intro{
+  width: 700px;
+  margin: 0 auto;
+  
+}
+.choose-us{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+._slider{
+  padding: 20px;
+}
+._slider img{
+  margin-left: 40px;
+}
+.get-in-touch{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}  
+
+.get-in-touch-intro{
+  width: 700px;
+  margin: 0 auto;
+}
+/* contact section */
+.contact{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-info{
+  background-color: lightgray;
+ /*  height: 300px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.contact-icons{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+.contact-icons li{
+  display: inline;
+  padding: 10px;
+}
+.contact-icons li a{
+  color: black;
+  text-decoration: none;
+}
+.contact-form{
+  background-color: rgb(161, 161, 161);
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  /*   padding-bottom:  */
+}
+.contact-form input{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+.contact-form textarea{
+  width: 100%;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid gray;
+}
+.sent-button{
+  /* border: 2px solid black; */
+  text-align: right;
+ /*  float: right; */
+  margin-top: 20px;
+}
+.sent-button button{
+  outline: 0;
+  background: transparent;
+  border: 1px solid black;
+  padding: 5px,10px,5px,10px;
+}
+
+
+

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script src="https://kit.fontawesome.com/d290ee2fae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Casablanca</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Introduction</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Our work</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Our clients</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="slider">
+        <div class="slider-item" style="background-image: url(images/slider1.jpg);">
+            <div class="content">
+                <h2>We've got the talent!</h2>
+                <hr>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <div class="slider-item" style="background-image: url(images/slider2.jpg);">
+            <div class="content">
+                <h2>We've got the talent!</h2>
+                <hr>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <div class="slider-item" style="background-image: url(images/slider3.jpg);">
+            <div class="content">
+                <h2>We've got the talent!</h2>
+                <hr>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="introduction">
+        <h3 class="section-title">Introduction</h3>
+        <hr class="line">
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting
+        </p>
+    </div>
+
+    <div class="parallax creativity">
+        <div class="overlay">
+            <div class="button">
+                Pure Creativity.
+            </div>
+        </div>
+    </div>
+
+    <!-- Our work -->
+    <div class="our-work">
+        <h3 class="section-title">Our Work</h3>
+        <hr class="line">
+        <div>
+            <div class="button-group filter-button-group">
+                <button data-filter="*" class="filterButton">show all</button>
+                <button data-filter=".group1" class="filterButton">Group1</button>
+                <button data-filter=".group2" class="filterButton">Group2</button>
+                <button data-filter=".group3" class="filterButton">Group3</button>
+                <button data-filter=".group4" class="filterButton">Group4</button>
+            </div>
+            <div class="grid">
+                <div class="grid-item group1">
+                    <img src="images/slider1.jpg" alt="Slider1">
+                </div>
+                <div class="grid-item group2">
+                    <img src="images/slider2.jpg" alt="Slider2">
+                </div>
+                <div class="grid-item group3">
+                    <img src="images/slider3.jpg" alt="Slider3">
+                </div>
+                <div class="grid-item group4">
+                    <img src="images/slider4.jpg" alt="Slider4">
+                </div>
+                <div class="grid-item group2">
+                    <img src="images/slider1.jpg" alt="Slider1">
+                </div>
+                <div class="grid-item group4">
+                    <img src="images/slider2.jpg" alt="Slider2">
+                </div>
+                <div class="grid-item group3">
+                    <img src="images/slider3.jpg" alt="Slider3">
+                </div>
+                <div class="grid-item group4">
+                    <img src="images/slider4.jpg" alt="Slider4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help section -->
+    <div class="parallax help">
+        <div class="overlay">
+            <div class="button">
+                We're here to help.
+            </div>
+        </div>
+    </div>
+
+    <!-- Our clients -->
+    <div class="our-clients">
+        <h3 class="section-title">Our clients</h3>
+        <hr class="line">
+        <div class="clients-logos">
+            <ul class="client-logos">
+                <li><img src="images/google-logo.png" alt="Google"></li>
+                <li><img src="images/samsung-logo.png" alt="Samsung"></li>
+                <li><img src="images/flickr-logo.png" alt="flickr"></li>
+                <li><img src="images/foursquare-logo.png" alt="Foursquare"></li>
+                <li><img src="images/pinterest-logo.png" alt="Pinterest"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- About us -->
+    <div class="about-us">
+        <h3 class="section-title">About us</h3>
+        <hr class="line">
+        <div>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum
+        </div>
+    </div>
+    <div class="members">
+        <div class="row">
+            <div class="col-md-3 member-item">
+                <div class="item-overlay">
+                    <a href="https://www.linkedin.com/login" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <div class="member-detail">
+                        <h3>John</h3>
+                        <span>CEO/Founder</span>
+                    </div>
+                </div>
+                <img src="images/member-1.jpg" alt="Member 1">
+            </div>
+            <div class="col-md-3 member-item">
+                <div class="item-overlay">
+                    <a href="https://www.linkedin.com/login" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <div class="member-detail">
+                        <h3>Anna</h3>
+                        <span>Web design</span>
+                    </div>
+                </div>
+                <img src="images/member-2.jpg" alt="Member 2">
+            </div>
+            <div class="col-md-3 member-item">
+                <div class="item-overlay">
+                    <a href="https://www.linkedin.com/login" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <div class="member-detail">
+                        <h3>Paula</h3>
+                        <span>Web developer</span>
+                    </div>
+                </div>
+                <img src="images/member-3.png" alt="Member 3">
+            </div>
+            <div class="col-md-3 apply">
+                <div class="apply-content">
+                    <h3>We are hiring</h3>
+                    <hr class="line">
+                    <div>
+                        <a href="#">Apply</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video section -->
+    <div class="video">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/JKsVYpRp41w" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <!-- why choose us -->
+    <div class="choose-us">
+        <div class="choose-us-intro">
+            <h3 class="section-title">Why choose us</h3>
+            <hr class="line">
+            <div>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+            </div>
+        </div>
+        <div class="container">
+            <div class="choose-us-slider">
+                <div class="_slider">
+                    <img src="images/img-1.png" alt="slider-item-1">
+                    <h3>App design</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="_slider">
+                    <img src="images/img-2.png" alt="slider-item-2">
+                    <h3>App design</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="_slider">
+                    <img src="images/img-3.png" alt="slider-item-3">
+                    <h3>App design</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="_slider">
+                    <img src="images/img-1.png" alt="slider-item-1">
+                    <h3>App design</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="get-in-touch">
+        <div class="get-in-touch-intro">
+            <h3 class="section-title">Get in touch</h3>
+            <hr class="line">
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.</div>
+        </div>
+        <div class="container-fluid contact">
+            <div class="row">
+                <div class="col-md-4 contact-info">
+                    <h3>OUR LOCATION</h3>
+                    <div>Rruga e Durresit</div>
+                    <div>Tirane,Albania</div>
+                    <div>+355695796203</div>
+                    <div>
+                        <ul class="contact-icons">
+                            <li>
+                                <a href="https://twitter.com/" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li><a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a> </li>
+                            <li><a href="https://www.linkedin.com/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a> </li>
+                            <li>
+                                <a href="https://www.vimeo.com/" target="_blank">
+                                    <i class="fab fa-vimeo-v"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.behance.net/" target="_blank">
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-8 contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <textarea name="notes" id="notes" rows="6" placeholder="Notes"></textarea>
+                        </div>
+                    </div>
+                    <div class="sent-button">
+                        <button>Sent</button>
+                        <!-- <a href="#">Sent</a> -->
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+</body>
+
+</html>
